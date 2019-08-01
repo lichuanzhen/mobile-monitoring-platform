@@ -8,6 +8,8 @@ import 'babel-polyfill'
 import axios from './api/apiConfig.js'
 import FastClick from 'fastclick'
 import './styles/index.scss'
+import Echarts from 'vue-echarts'
+Vue.component('chart', Echarts)
 FastClick.attach(document.body)
 
 Vue.prototype.$http = axios

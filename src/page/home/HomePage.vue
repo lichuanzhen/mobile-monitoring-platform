@@ -4,13 +4,13 @@
   </div>
 </template>
 <script>
-import ProjectWeather from '../projectWeather/ProjectWeather'
+import ProjectWeather from './projectWeather/ProjectWeather'
 export default {
   name: 'HomePage',
   components: {
     ProjectWeather
   },
-  data () {
+  data() {
     return {
     }
   }
